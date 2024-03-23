@@ -80,7 +80,7 @@ function Demo() {
           />
           <input
             type="url"
-            placeholder="Enter a URL"
+            placeholder="Enter a URL   -   https://www.nytimes.com/"
             value={article.url}
             onChange={(e) => setArticle({ ...article, url: e.target.value })}
             required
