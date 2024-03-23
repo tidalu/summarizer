@@ -11,6 +11,15 @@ function App() {
         <Hero />
         <Demo />
       </div>
+      <div className="text-center text-gray-700 whitespace-nowrap animate-glow">
+        Developed by{' '}
+        <span
+          onClick={() => window.open('https://linkedin/in/ulugbekswe')}
+          className="text-red-900 cursor-pointer"
+        >
+          Ulugbek
+        </span>
+      </div>
     </main>
   );
 }
