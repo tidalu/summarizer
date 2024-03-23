@@ -16,7 +16,7 @@ function App() {
         Developed by{' '}
         <span
           onClick={() => window.open('https://linkedin.com/in/ulugbekswe')}
-          className="text-blue-900 cursor-pointer"
+          className="text-blue-900 underline cursor-pointer"
         >
           Ulugbek
         </span>
