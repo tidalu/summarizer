@@ -12,11 +12,11 @@ function App() {
         <Demo />
       </div>
       {/* footer */}
-      <div className="bottom-0 text-center text-gray-700 whitespace-nowrap animate-glow">
+      <div className="mb-4 text-center text-gray-700 whitespace-nowrap animate-glow">
         Developed by{' '}
         <span
           onClick={() => window.open('https://linkedin.com/in/ulugbekswe')}
-          className="text-red-900 cursor-pointer"
+          className="text-blue-900 cursor-pointer"
         >
           Ulugbek
         </span>
