@@ -11,6 +11,7 @@ function App() {
         <Hero />
         <Demo />
       </div>
+      {/* footer */}
       <div className="text-center text-gray-700 whitespace-nowrap animate-glow">
         Developed by{' '}
         <span
